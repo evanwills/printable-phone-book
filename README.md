@@ -24,3 +24,29 @@ died. `<printed-phone-book>` can access
 
 ## Just want to use it?
 [Live Printable pocket phone book](https://codepen.io/evanwills/live/wBMoBME)
+
+# About the code
+
+Printable phone book is made with Custom Elements using [LitElement](https://lit.dev)
+
+# Repository
+
+[Printable phone book repo](https://github.com/evanwills/printable-phone-book)
+
+# Install
+
+## NPM
+
+```bash
+git clone https://github.com/evanwills/printable-phone-book.git;
+npm install;
+npm run dev;
+```
+
+## Deno
+
+```bash
+git clone https://github.com/evanwills/printable-phone-book.git;
+deno install;
+deno task dev;
+```

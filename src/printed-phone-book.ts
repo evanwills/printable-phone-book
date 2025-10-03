@@ -139,6 +139,7 @@ export class PrintedPhoneBook extends LitElement {
               <li>If you have a laminator, laminate each copy</li>
             </ol>
           </details>
+
           <details name="ui" open>
             <summary>Enter names &amp; phone numbers </summary>
             <ol>
@@ -156,6 +157,22 @@ export class PrintedPhoneBook extends LitElement {
 
             </ol>
           </details>
+          <details name="ui">
+            <summary>About the code</summary>
+            <h2>Repository</h2>
+            <p><a href="https://github.com/evanwills/printable-phone-book">https://github.com/evanwills/printable-phone-book</a></p>
+
+            <h2>Installation</h2>
+            <h3>NPM</h3>
+            <pre>git clone https://github.com/evanwills/printable-phone-book.git;
+npm install;
+npm run dev;</pre>
+
+            <h3>Deno</h3>
+            <pre>
+git clone https://github.com/evanwills/printable-phone-book.git;
+deno install;
+deno task dev;</pre>
         </div>
         ${this.renderPrint(leftCol, rightCol, false)}
         ${this.renderPrintExtra(leftCol, rightCol)}
